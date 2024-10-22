@@ -20,7 +20,8 @@ We decided to drop rows with Nan in specific columns without assignment for Livi
 Building condition. Retaining the NaN values in the dataset would hinder the quality of the final analysis, as these 
 missing values pertain to important criteria necessary for drawing meaningful conclusions.
 The data was also sorted by price to include a cutoff of listings over 1 million euros to exclude outliers skewing the 
-analysis. However, the pre-sorted analysis was used for outlier conclusion visualizations. 
+analysis. The top 16 listings were excluded and considered as 'bad data' because these houses/apartments were for sale with
+a monthly annuity. However, the pre-sorted analysis (excluding bad data properties) was used for outlier conclusion visualizations. 
 
 The final sanitized property listings data can be found here: Data/Cleaned/sanitized_property_listings_Kelli_final.csv
 
