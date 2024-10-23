@@ -23,6 +23,16 @@ The data was also sorted by price to include a cutoff of listings over 1 million
 analysis. The top 16 listings were excluded and considered as 'bad data' because these houses/apartments were for sale with
 a monthly annuity. However, the pre-sorted analysis (excluding bad data properties) was used for outlier conclusion visualizations. 
 
+In total, we have 15 features of 9033 listings. The proportion of missing values is as follows:
+
+Garden area m²:                0.714381
+
+Terrace surface m²:            0.519097
+
+Number of facades:             0.295140
+
+The other property features give 0% missing values. 
+
 The final sanitized property listings data can be found here: Data/Cleaned/sanitized_property_listings_Kelli_final.csv
 
 ## Repo and directory structure
